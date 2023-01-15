@@ -13,5 +13,6 @@
             "email": "nurmuhammet@mail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "license": "MIT"
 }
