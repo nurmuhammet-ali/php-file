@@ -1,0 +1,17 @@
+{
+    "name": "nurmuhammet/php-file",
+    "description": "Simple file manipulator",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Nurmuhammet\\File\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nurmuhammet Allanov",
+            "email": "nurmuhammet@mail.com"
+        }
+    ],
+    "require": {}
+}

@@ -1,9 +1,5 @@
 <?php 
 
-use Avagadro\File;
-
-include 'file.php';
-
 if (! File::exists('data.txt')) {
     File::put('data.txt', 'Hello.');
 }
