@@ -1,6 +1,4 @@
 # Simple file manipulator for PHP
-## Motivation?
-#### This is one of my first reusable codes when I was in high school working on PHP. There is a small chance that this package can help someone along the way.
 ### Examples
 ```php
 use Avagadro\File;
@@ -19,6 +17,6 @@ File::truncate('/path/to/file');
 File::copy('/path/to/file', '/path');
 File::move('/path/to/file', '/path');
 File::rename('/path/to/file', 'name');
-File::download('/path/to/file', 'dir');
-File::upload('/path/to/file', 'dir');
+File::download('/path/to/file');
+File::upload('/path/to/file');
 ```

@@ -80,15 +80,13 @@ var_dump(
     File::rename('data.txt', 'renamed.txt')
 );
 
-// print 'download: ';
+print '(bool) Download with curl: ';
 var_dump(
-    File::download('data.txt')
+    File::download('https://raw.githubusercontent.com/nurmuhammet-ali/php-file/main/README.MD', 'downloads/')
 );
 
-// print 'upload: ';
-// var_dump(
-//     File::upload('data.txt'
-// );
+// print '(bool) Upload file from form: ';
+// File::upload('data.txt', 'directory');
 
 
 echo "</pre> \n";
