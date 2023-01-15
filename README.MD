@@ -3,7 +3,9 @@
 #### This is one of my first reusable codes when I was in high school working on PHP. There is a small chance that this package can help someone along the way.
 ### Examples
 ```php
-use Avagadro\File;
+require __DIR__ . '/vendor/autoload.php';
+
+use Nurmuhammet\File;
 
 # Available methods, see example.php for examples.
 File::exists('/path/to/file');

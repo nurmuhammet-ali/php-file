@@ -1,5 +1,9 @@
 <?php 
 
+use Nurmuhammet\File;
+
+require __DIR__ . '/vendor/autoload.php';
+
 if (! File::exists('data.txt')) {
     File::put('data.txt', 'Hello.');
 }
